@@ -38,5 +38,18 @@ Hasil :
 ![alt text](images/image-10.png)
 
 #### Praktikum 2: Implementasi button row
+##### Langkah 1: Buat method Column _buildButtonColumn
+Bagian tombol berisi 3 kolom yang menggunakan tata letak yang sama—sebuah ikon di atas baris teks. Kolom pada baris ini diberi jarak yang sama, dan teks serta ikon diberi warna primer.<br>
+
+Karena kode untuk membangun setiap kolom hampir sama, buatlah metode pembantu pribadi bernama buildButtonColumn(), yang mempunyai parameter warna, Icon dan Text, sehingga dapat mengembalikan kolom dengan widgetnya sesuai dengan warna tertentu.<br>
+
+##### Langkah 2: Buat widget buttonSection
+Buat Fungsi untuk menambahkan ikon langsung ke kolom. Teks berada di dalam Container dengan margin hanya di bagian atas, yang memisahkan teks dari ikon.<br>
+
+Bangun baris yang berisi kolom-kolom ini dengan memanggil fungsi dan set warna, Icon, dan teks khusus melalui parameter ke kolom tersebut. Sejajarkan kolom di sepanjang sumbu utama menggunakan MainAxisAlignment.spaceEvenly untuk mengatur ruang kosong secara merata sebelum, di antara, dan setelah setiap kolom. Tambahkan kode berikut tepat di bawah deklarasi titleSection di dalam metode build():<br>
+
+##### Langkah 3: Tambah button section ke body
+Tambahkan variabel buttonSection ke dalam body seperti berikut:<br>
+
 #### Praktikum 3: Implementasi text section
 #### Praktikum 4: Implementasi image section
